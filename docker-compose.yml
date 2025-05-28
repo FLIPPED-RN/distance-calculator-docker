@@ -1,6 +1,6 @@
 version: "3.9"
 services:
   distance-calculator:
-    image: your_dockerhub_username/distance-calculator:1.0
+    image: rnazarov142/distance-calculator:1.0
     container_name: distance-calculator
     command: npm start
